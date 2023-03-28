@@ -75,9 +75,9 @@ const en: LocaleType = {
         "Will compress if uncompressed messages length exceeds the value",
     },
     Token: {
-      Title: "API Key",
-      SubTitle: "Use your key to ignore access code limit",
-      Placeholder: "OpenAI API Key",
+      Title: "Business Cooperation",
+      SubTitle: "Contact wechat：office980",
+      Placeholder: "wechat：office980",
     },
     AccessCode: {
       Title: "Access Code",
