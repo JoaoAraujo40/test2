@@ -4,10 +4,11 @@ const cn = {
     Unauthorized: "现在是未激活，请在设置页面输入月卡密钥。",
   },
   ChatItem: {
-    ChatItemCount: (count: number) => `${count} 条对话<a href="https://www.365pro.top.com">点我购买月卡密钥</a>`,
+    ChatItemCount: (count: number) => `${count} 条对话`,
   },
   Chat: {
     SubTitle: (count: number) => `与 ChatGPT 的 ${count} 条对话`,
+    <a href="https://www.365pro.top.com">点我购买月卡密钥</a>
     Actions: {
       ChatList: "查看消息列表",
       CompressedHistory: "查看压缩后的历史 Prompt",
