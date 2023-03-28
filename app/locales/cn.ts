@@ -1,10 +1,10 @@
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请在设置页填写授权码。",
+    Unauthorized: "现在是未激活，请在设置页面输入月卡密钥。",
   },
   ChatItem: {
-    ChatItemCount: (count: number) => `${count} 条对话`,
+    ChatItemCount: (count: number) => `${count} 条对话<a href="https://www.365pro.top.com">点我购买月卡密钥</a>`,
   },
   Chat: {
     SubTitle: (count: number) => `与 ChatGPT 的 ${count} 条对话`,
@@ -70,14 +70,14 @@ const cn = {
       SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
     },
     Token: {
-      Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过受控访问限制",
-      Placeholder: "OpenAI API Key",
+      Title: "商务合作",
+      SubTitle: "商务合作请联系微信：office980",
+      Placeholder: "微信：office980",
     },
     AccessCode: {
-      Title: "访问码",
-      SubTitle: "现在是受控访问状态",
-      Placeholder: "请输入访问码",
+      Title: "月卡激活码",
+      SubTitle: "为输入激活码将无法使用",
+      Placeholder: "请输入你的激活码",
     },
     Model: "模型 (model)",
     Temperature: {
