@@ -8,7 +8,6 @@ const cn = {
   },
   Chat: {
     SubTitle: (count: number) => `与 ChatGPT 的 ${count} 条对话`,
-    <a href="https://www.365pro.top.com">点我购买月卡密钥</a>
     Actions: {
       ChatList: "查看消息列表",
       CompressedHistory: "查看压缩后的历史 Prompt",
