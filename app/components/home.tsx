@@ -517,9 +517,10 @@ export function Home() {
       >
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT Next</div>
-          <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
-          </div>
+          <button onClick={() => window.location.href='https://www.365pro.top'} className={styles["sidebar-sub-title"]}>
+  点击购买月卡.
+</button>
+
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
           </div>
