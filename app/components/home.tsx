@@ -517,9 +517,16 @@ export function Home() {
       >
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPT Next</div>
-          <button onClick={() => window.location.href='https://www.365pro.top'} className={styles["sidebar-sub-title"]}>
-  点击购买月卡.
+          
+          
+          <div>
+  <button onClick={() => window.location.href='https://www.365pro.top'} className={styles["sidebar-sub-title"]}>
+  购买月卡激活码
 </button>
+  <button onClick={() => window.location.href='http://http://www.chat.365pro.top/qun.html'} className={styles["sidebar-sub-title"]}>
+    加入交流群
+  </button>
+</div>
 
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
