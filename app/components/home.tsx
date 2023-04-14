@@ -521,11 +521,9 @@ export function Home() {
           
           <div>
   <button onClick={() => window.location.href='https://www.chatmasterpro.com'} className={styles["sidebar-sub-title"]}>
-  友链-Prompt库
+  免费Prompt库
 </button>
-  <button onClick={() => window.location.href='https://www.chat.365pro.top/qun.html'} className={styles["sidebar-sub-title"]}>
-    加入交流群
-  </button>
+  
 </div>
 
           <div className={styles["sidebar-logo"]}>
