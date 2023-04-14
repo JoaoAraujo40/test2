@@ -1,7 +1,7 @@
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未激活，请在设置页面输入访问码。",
+    Unauthorized: "现在是未激活状态，请在设置页面输入访问码。（微信：zhy1185661999免费获取",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -51,12 +51,12 @@ const cn = {
     },
     Avatar: "头像",
     Update: {
-      Version: (x: string) => `当前版本：${x}`,
+      Version: (x: string) => `当前版本：23-0414`,
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
-      FoundUpdate: (x: string) => `发现新版本：${x}`,
-      GoToUpdate: "前往更新",
+      FoundUpdate: (x: string) => `当前仅支持GPT3.5`,
+      GoToUpdate: "购买、合租GPT-4",
     },
     SendKey: "发送键",
     Theme: "主题",
@@ -75,9 +75,9 @@ const cn = {
       Placeholder: "OpenAI Key（选填）",
     },
     AccessCode: {
-      Title: "月卡激活码",
-      SubTitle: "为输入激活码将无法使用",
-      Placeholder: "请输入你的激活码",
+      Title: "访问码",
+      SubTitle: "为输入访问码将无法使用",
+      Placeholder: "请输入你的访问码",
     },
     Model: "模型 (model)",
     Temperature: {
