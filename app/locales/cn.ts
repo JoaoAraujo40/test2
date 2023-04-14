@@ -1,7 +1,7 @@
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未激活，请在设置页面输入月卡密钥。",
+    Unauthorized: "现在是未激活，请在设置页面输入访问码。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -71,8 +71,8 @@ const cn = {
     },
     Token: {
       Title: "商务合作",
-      SubTitle: "商务合作请联系微信：office980",
-      Placeholder: "微信：office980",
+      SubTitle: "商务合作请联系微信",
+      Placeholder: "OpenAI Key（选填）",
     },
     AccessCode: {
       Title: "月卡激活码",
