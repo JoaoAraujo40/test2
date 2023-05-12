@@ -523,6 +523,9 @@ export function Home() {
   <button onClick={() => window.location.href='https://www.chatmasterpro.com'} className={styles["sidebar-sub-title"]}>
   免费Prompt库
 </button>
+            <button onClick={() => window.location.href='https://www.join.pro365.top'} className={styles["sidebar-sub-title"]}>
+  加入交流群
+</button>
   
 </div>
 
