@@ -528,6 +528,7 @@ export function Home() {
 </button>
   
 </div>
+          <div><p>通知：原访问码即将更换，请及时进群获取新访问码</p></div>
 
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
