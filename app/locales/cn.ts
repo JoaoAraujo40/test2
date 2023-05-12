@@ -1,7 +1,7 @@
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未激活状态，请在设置页面输入访问码。（微信：zhy1185661999免费获取",
+    Unauthorized: "现在是未激活状态，请在设置页面输入访问码。左上角加入聊天群即可获取。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
